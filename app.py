@@ -7,8 +7,8 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, FlexSendM
 app = Flask(__name__)
 
 # 這裡換成您在 LINE Developer 取得的金鑰
-LINE_CHANNEL_ACCESS_TOKEN = wXxkJ8bWop2nituxGEyPw13jGiiBEJQjvVJq6zdFLpt098lFEM8QcoIHbWJmePw1Kxlo/EswI8zb4Vhq8yefaB06mUQe8/M+pyFpRKIS9l4YrTFE31hMoyuN/51hQLXpgmkB2XCfdx0eHeNQXt4DbwdB04t89/1O/w1cDnyilFU=
-LINE_CHANNEL_SECRET = 60bbf9a1a1bcbd6cfb59adaf0b9dca06
+LINE_CHANNEL_ACCESS_TOKEN = 'wXxkJ8bWop2nituxGEyPw13jGiiBEJQjvVJq6zdFLpt098lFEM8QcoIHbWJmePw1Kxlo/EswI8zb4Vhq8yefaB06mUQe8/M+pyFpRKIS9l4YrTFE31hMoyuN/51hQLXpgmkB2XCfdx0eHeNQXt4DbwdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_SECRET = '60bbf9a1a1bcbd6cfb59adaf0b9dca06'
 
 line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(LINE_CHANNEL_SECRET)
