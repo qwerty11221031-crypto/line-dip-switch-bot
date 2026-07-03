@@ -15,8 +15,8 @@ from linebot.v3.webhooks import MessageEvent, TextMessageContent
 app = Flask(__name__)
 
 # ⚠️ 請在下方填入您的 LINE 機器人金鑰
-LINE_CHANNEL_ACCESS_TOKEN = 'wXxkJ8bWop2nituxGEyPw13jGiiBEJQjvVJq6zdFLpt098lFEM8QcoIHbWJmePw1Kxlo/EswI8zb4Vhq8yefaB06mUQe8/M+pyFpRKIS9l4YrTFE31hMoyuN/51hQLXpgmkB2XCfdx0eHeNQXt4DbwdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = '60bbf9a1a1bcbd6cfb59adaf0b9dca06'
+CHANNEL_ACCESS_TOKEN = 'wXxkJ8bWop2nituxGEyPw13jGiiBEJQjvVJq6zdFLpt098lFEM8QcoIHbWJmePw1Kxlo/EswI8zb4Vhq8yefaB06mUQe8/M+pyFpRKIS9l4YrTFE31hMoyuN/51hQLXpgmkB2XCfdx0eHeNQXt4DbwdB04t89/1O/w1cDnyilFU='
+CHANNEL_SECRET = '60bbf9a1a1bcbd6cfb59adaf0b9dca06'
 
 configuration = Configuration(access_token=CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(CHANNEL_SECRET)
